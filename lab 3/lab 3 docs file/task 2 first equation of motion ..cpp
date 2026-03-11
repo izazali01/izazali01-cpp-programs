@@ -1,0 +1,25 @@
+// NAME= izaz ali
+ // ID= 5120364/ 0660
+
+#include <iostream> // this is cld library of code
+using namespace std; // wite to save our coding from repetion of std
+
+int main() {                    // main  programming part
+	
+	double v,u,a,t;             // variable declaration
+	
+	cout<<"enter u ";            // prompt for initial velocity
+	cin>>u;
+	cout<<"enter a ";            // prompt for acceleration
+	cin>>a;
+	cout<<"enter t ";    // prompt for time
+	cin>>t;
+	
+	v=u+a*t;               // calculate final velocity using equation
+	
+	cout<<"initial velocity = "<<u<<" m/s"<<endl;   // initial velocity
+	cout<<"acceleration = "<<a<<"m/s^2"<<endl;      // acceleration
+	cout<<"time = "<<t<<" s" <<endl;               // time
+	cout<<"final velocity = "<<v<<" m/s"<<endl;    // final velocity
+
+}
